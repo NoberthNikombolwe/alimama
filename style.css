@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--var-font-family_2);
+}
+
+a{
+    text-decoration: none;
+}
+:root{
+    --var-font-family_2: 'Raleway', sans-serif;
+}
+.Product_Manufactures{
+    display: flex;
+    justify-content: center;
+    padding-top:10px ;
+}
+.Product_Manufactures a span{
+    /* padding-left: 50px; */
+}
+.Product_Manufactures a{
+    color: black;
+    font-size: 22px;
+}
+.Product_Manufactures a #currently{
+    border-bottom: 2px solid black;    
+}
+.Product_Manufactures a #manfu:hover{
+    color: orange;
+}
+.LogoProfile{
+    height: 5vh;
+    /* background-color: gray; */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.LogoProfile .logo{
+    display: grid;
+    justify-items: center;
+}
+.LogoProfile .logo img{
+    height: 75px;
+    width: 150px;
+}
+.LogoProfile .search{
+    display: flex;
+    align-items: center;
+}
+.LogoProfile .search span{
+    display: flex;
+    align-items: center;
+}
+.LogoProfile .fa-camera{
+    position: relative;
+    left: -50px;
+}
+.LogoProfile .searchScan{
+    background-color: orange;
+    padding: 10px 20px;
+    position: relative;
+    left: -35px;
+    border: 0.5px solid orange;
+}
+.LogoProfile .search input{
+    padding-left: 10px;
+    outline: none;
+    width: 50vw;
+    height: 40px;
+    border-radius: 16px;
+    border: 2px solid orange;
+}
+.LogoProfile .Profile{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 20px;
+}
+.LogoProfile .Profile a{
+    color: black;
+}
+.Cartegories{
+    padding: 10px 20px;
+    border-top: 1px solid rgb(188, 188, 188);
+    border-bottom: 1px solid  rgb(188, 188, 188);
+    display: grid;
+    grid-template-columns: 1fr 5fr 1.7fr;
+}
+.Cartegories .cartg:hover{
+    color: orange;
+    display: block;
+}
+.Cartegories .issue{
+    display: flex;
+    justify-content: space-between;
+}
+.Cartegories .Lang_ship{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.Navigation{
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.603);
+}
+.welcome{
+    display: grid;
+    margin: 30px 100px;
+    height: fit-content;
+    grid-template-columns: 1fr 2.5fr 1fr;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.603);
+}
+.welcome .myMarket{
+    padding: 20px 30px;
+}
+.welcome .myMarket h3{
+    padding-bottom: 10px;
+}
+
+.welcome .myMarket ul{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.welcome .myMarket ul li{
+    display: block;
+    line-height: 2.5rem;
+    padding-left: 10px;
+}
+.welcome .myMarket ul li a:hover{
+    color: orange;
+}
+.welcome .myMarket ul li:hover{
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.374);
+    border-radius: 10px;
+}
+.marketImg{
+    background-color: gray;
+}
+.animated{
+    height: 80%;
+    background-color: blueviolet;
+}
+.buyersClub{
+    padding: 10px 20px;
+}
+.lis{
+    padding: 5px 0;
+}
+.lis .lisNo{
+    height: 10vh;
+    border-radius: 16px;
+    background-color: rgba(128, 128, 128, 0.322);
+    margin: 10px 0px;
+    display: flex;
+}
+.lis .lisNo .img{
+    padding: 20px;
+}
+.content{
+    display: grid;
+    line-height: 1.5rem;
+}
+.fa-shield{
+    color: silver;
+}
